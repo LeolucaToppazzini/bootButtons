@@ -22,3 +22,90 @@
 	position:relative;
 	top:1px;
 }
+
+/* Carta principale */
+.pokemon-card {
+    width: 18rem;
+    border: 5px solid #d6a52a;
+    border-radius: 15px;
+    overflow: hidden;
+    background: linear-gradient(
+        135deg,
+        #fff3d6,
+        #f5c16c
+    );
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Effetto quando il mouse passa sopra */
+.pokemon-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 14px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Intestazione */
+.pokemon-header {
+    background: linear-gradient(
+        90deg,
+        #e65100,
+        #ff9800
+    );
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+}
+
+/* Immagine */
+.pokemon-image {
+    padding: 10px;
+    background-color: #fff8e1;
+    object-fit: contain;
+    height: 180px;
+}
+
+/* Nome */
+.pokemon-name {
+    font-weight: bold;
+    color: #713600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Statistiche */
+.pokemon-stats {
+    background-color: #ffe0a3;
+    border-radius: 8px;
+    padding: 8px;
+    color: #7a3300;
+}
+
+/* Attacchi */
+.pokemon-attack {
+    background-color: #fff;
+    border: 2px solid #e0a12c;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Pulsante */
+.pokemon-button {
+    background: linear-gradient(
+        90deg,
+        #e65100,
+        #ff9800
+    );
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.pokemon-button:hover {
+    background: #bf360c;
+    color: white;
+}

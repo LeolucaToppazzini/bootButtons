@@ -26,19 +26,67 @@
 <div class="row">
 <div class="col-3">
     
-    <div class="card">
-        <div class="card-header">
-                header
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">Titolo</h5>
-            <p class="card-text">Contenuto gerico</p>
-            <button type="button" class="btn btn-primary">pulsante</button>
-        </div>
-        <div class="card-footer">
-                footer
-        </div>
+    <div class="card pokemon-card fire-card">
+
+    <!-- Header della carta -->
+    <div class="card-header pokemon-header d-flex justify-content-between align-items-center">
+        <strong>CHARIZARD</strong>
+        <span class="badge bg-danger">Fuoco</span>
     </div>
+
+    <!-- Immagine -->
+    <img src="https://placehold.co/300x180?text=Charizard"
+         class="card-img-top pokemon-image"
+         alt="Charizard">
+
+    <!-- Corpo della carta -->
+    <div class="card-body">
+
+        <!-- Statistiche -->
+        <div class="pokemon-stats d-flex justify-content-between align-items-center mb-2">
+            <span class="badge bg-warning text-dark">Livello 50</span>
+            <strong>HP 120</strong>
+        </div>
+
+        <h5 class="card-title pokemon-name">Charizard</h5>
+
+        <p class="card-text">
+            Un Pokémon di tipo Fuoco e Volante.
+            Sputa fiamme molto potenti.
+        </p>
+
+        <hr>
+
+        <!-- Attacchi -->
+        <h6>Attacchi</h6>
+
+        <div class="pokemon-attack d-flex justify-content-between align-items-center">
+            <span>Braciere</span>
+            <strong>30 DMG</strong>
+        </div>
+
+        <div class="pokemon-attack d-flex justify-content-between align-items-center">
+            <span>Fuocobomba</span>
+            <strong>80 DMG</strong>
+        </div>
+
+        <hr>
+
+        <!-- Pulsante -->
+        <div class="d-grid">
+            <button type="button" class="btn pokemon-button">
+                Gioca carta
+            </button>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="card-footer text-center">
+        <small class="text-muted">Carta Pokémon #006</small>
+    </div>
+
+</div>
 
 </div>
 </div>
